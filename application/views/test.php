@@ -7,7 +7,7 @@
    </head>
 	
    <body> 
-      CodeIgniter View Example 
+      <b> CodeIgniter View Example </b>
    </body>
 	
 </html>
