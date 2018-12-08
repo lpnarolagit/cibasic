@@ -10,4 +10,4 @@
       <b> CodeIgniter View Example 13 </b>
    </body>
 	
-</html>
+</html> 
