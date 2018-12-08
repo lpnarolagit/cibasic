@@ -3,8 +3,9 @@
 class Test extends CI_Controller{
 	public function index(){
 		$this->load->view('test');
-		$this->load->model('User_model');
-		
+		// $this->load->model('User_model');
+			$this->User_model->testMethod();
+			
 		$this->load->model('Test_model');
 			// $this->Test_model->testMethod();
 		$this->load->helper('url');

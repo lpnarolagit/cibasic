@@ -53,3 +53,10 @@ $route['default_controller'] = 'test';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['product/:num'] = 'catalog/product_loolup';
+
+$route['stud'] = 'Stud_Controller';
+$route['stud/add'] = 'Stud_Controller/add_student';
+$route['stud/add_view'] = 'Stud_Controller/add_student_view';
+$route['stud/edit/(\d+)'] = 'Stud_controller/update_student_view';
+$route['stud/delete/(\d+)'] = 'Stud_Controller/delete_student';
+$route['upload'] = 'Upload';

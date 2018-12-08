@@ -4,8 +4,13 @@ class User_model extends CI_Model{
 		parent::__construct();
 	}
 	
+	public function callableMethod(){
+		echo "<br>called this inside of the model function";
+	}
+	
 	public function testMethod(){
-		echo "just test function";
+		$this->callableMethod();
+		echo "<br>just calling the function of model";
 	}
 }
 
